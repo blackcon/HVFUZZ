@@ -12,9 +12,11 @@
     participant storvsp.sys
     participant CrashMonitoring
     participant hAFL2
-    hAFL2->>storvsp.sys: Check Coverage
-    hAFL2->>CPHarnless.sys: Generate Payload
-    CPHarnless.sys->>storvsp.sys: Send Payload
+    loop Fuzzing
+      hAFL2->>storvsp.sys: Check Coverage
+      hAFL2->>CPHarnless.sys: Generate Payload
+      CPHarnless.sys->>storvsp.sys: Send Payload
+    end
     loop CrashMonitoring
         CrashMonitoring->>storvsp.sys: Monitoring the crash
     end
