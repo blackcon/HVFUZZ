@@ -1,0 +1,27 @@
+﻿  Conf.cpp
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\HyperViperSharedUserland\Conf.cpp(53,47): warning C4312: '형식 캐스트': 'DWORD'에서 더 큰 'void *'(으)로의 변환입니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\HyperViperSharedUserland\Conf.cpp(120,38): warning C4311: '형식 캐스트': 'void *'에서 'int'(으)로 포인터가 잘립니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\HyperViperSharedUserland\Conf.cpp(120,38): warning C4302: '형식 캐스트': 'void *'에서 'int'(으)로 잘립니다.
+  Convertions.cpp
+  HVdriverIO.cpp
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\HyperViperSharedUserland\HVdriverIO.cpp(247,34): warning C4305: 'return': 'unsigned long'에서 'bool'(으)로 잘립니다.
+  packet_sender.cpp
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(198,46): warning C4838: '__int64'에서 'DWORD'(으)로의 변환에는 축소 변환이 필요합니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(214,30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(220,58): warning C4244: '=': 'DWORD'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(228,36): warning C4838: 'int'에서 'UINT8'(으)로의 변환에는 축소 변환이 필요합니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(303,71): warning C4838: 'int'에서 'UINT16'(으)로의 변환에는 축소 변환이 필요합니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(345,43): warning C4244: '=': 'UINT16'에서 'unsigned char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(101,8): warning C4101: 'fin' :참조되지 않은 지역 변수입니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(410,10): warning C4838: 'int'에서 'DWORD'(으)로의 변환에는 축소 변환이 필요합니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(421,29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(435,36): warning C4838: 'int'에서 'UINT8'(으)로의 변환에는 축소 변환이 필요합니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(498,72): warning C4311: '형식 캐스트': 'HANDLE'에서 'unsigned int'(으)로 포인터가 잘립니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(498,72): warning C4302: '형식 캐스트': 'HANDLE'에서 'unsigned int'(으)로 잘립니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(516,8): warning C4244: '인수': 'UINT64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\sender_HyperViper\packet_sender.cpp(526,10): warning C4244: '인수': 'UINT64'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 60 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  sender_HyperViper.vcxproj -> H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\x64\Release\sender_HyperViper.exe

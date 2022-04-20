@@ -1,0 +1,25 @@
+﻿  Building 'CPHarness' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\CPHarness.inf
+  Stamping [Version] section with DriverVer=04/20/2022,17.26.3.687
+  Driver.c
+  KernelModules.c
+  코드를 생성하고 있습니다...
+  CPHarness.vcxproj -> H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\x64\Release\CPHarness.sys
+  Done Adding Additional Store
+  Successfully signed: H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\x64\Release\CPHarness.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\x64\Release\CPHarness\cpharness.cat
+  Done Adding Additional Store
+  Successfully signed: H:\2022_Windows10_backup\Desktop\analysis\hyper-v\fuzzer\hAFL2\drivers\CPHarness\x64\Release\CPHarness\cpharness.cat
+  
